@@ -1,0 +1,11 @@
+Entregar el PROYECTOS ECLIPSE de los dos ejercicios obligatorios, cada uno en un PACKAGE separado. 
+En cada .java incluir al principio del fichero un COMENTARIO CON EL NOMBRE del autor del código 
+Para cada ejercicio, incluir un pequeño fichero de texto explicando:
+- manual de usuario de la aplicación 
+* argumentos (si los hay)
+* comandos (si los hay)
+* ficheros necesarios (incluir fichero de muestra)
+* diseño (clases, etc.)
+- discusión crítica de las bondades y defectos de la implementación proporcionada
+* crítica (incluir puntos flojos, etc.)
+* puntos a favor (incluir puntos fuertes, etc.)

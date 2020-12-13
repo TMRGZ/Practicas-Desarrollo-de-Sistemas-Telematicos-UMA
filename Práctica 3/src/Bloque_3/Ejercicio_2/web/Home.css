@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.comentariosBox {
+    padding: 25px 20px 20px;
+    word-wrap: break-word;
+    width:66%;
+    left: 22%;
+    border: 2px solid rgb(176, 202, 219);
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.comentariosBox p {
+    font-family: Georgia, "Cambria", serif;
+}
+
+
+.areaBox {
+    position: relative;
+    padding: 20px 0 20px;
+    left: 20%;
+}
+
+.areaBox textarea {
+    width: 70%;
+    height: 100px;
+}
+
+.areaBox input[type="submit"] {
+    border: 2px solid rgb(61, 79, 93);
+    height: 40px;
+    background: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.areaBox input[type="submit"]:hover {
+    cursor: pointer;
+    background: yellowgreen;
+    color: black;
+}
+
+
+.noticiasBox {
+    padding: 20px 0 20px;
+    word-wrap: break-word;
+    width: 70%;
+    left: 20%;
+    position: relative;
+}
+
+.noticiasBox a {
+    color: rgb(61, 146, 201);
+}
+
+.noticiasBox a:hover {
+    color: rgb(61, 146, 201);
+    text-decoration: rgb(61, 146, 201);
+}
+
+.noticiasBox p {
+    font-family: Georgia, "Cambria", serif;
+}
+
+.noticiasBox h3 {
+    color: darkgrey;
+}
+
+.opcionesBox {
+    background: rgb(61, 79, 93);
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    text-align: center;
+}
+
+.opcionesBox h2 {
+    font-size: 22px;
+    color: rgb(176, 202, 219);
+}
+
+.opcionesBox input[type="submit"] {
+    height: 40px;
+    width: 90%;
+    border: 2px solid rgb(176, 202, 219);
+    background: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.opcionesBox input[type="submit"]:hover {
+    cursor: pointer;
+    background: yellowgreen;
+    color: black;
+}
+

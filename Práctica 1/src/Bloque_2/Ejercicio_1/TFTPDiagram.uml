@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Bloque_2.Ejercicio_1</OriginalElement>
+  <nodes>
+    <node x="1136.0" y="1350.0">Bloque_2.Ejercicio_1.Panel</node>
+    <node x="1446.8986168642928" y="13.288713112260325">Bloque_2.Ejercicio_1.PaqueteTFTP</node>
+    <node x="853.75" y="11.5">Bloque_2.Ejercicio_1.TFTPacket.TFTPACK</node>
+    <node x="418.75" y="309.0">Bloque_2.Ejercicio_1.TFTPacket</node>
+    <node x="464.75" y="1916.0">Bloque_2.Ejercicio_1.Controlador</node>
+    <node x="919.625" y="2063.0">Bloque_2.Ejercicio_1.ClienteTFTPGUI</node>
+    <node x="431.75" y="1450.0">Bloque_2.Ejercicio_1.ClienteTFTP</node>
+    <node x="254.0" y="0.5">Bloque_2.Ejercicio_1.TFTPacket.TFTPWRQ</node>
+    <node x="835.3198860514487" y="1077.0">Bloque_2.Ejercicio_1.TFTPException</node>
+    <node x="1103.25" y="0.5">Bloque_2.Ejercicio_1.TFTPacket.TFTPError</node>
+    <node x="478.25" y="0.5">Bloque_2.Ejercicio_1.TFTPacket.TFTPRRQ</node>
+    <node x="0.0" y="0.0">Bloque_2.Ejercicio_1.TFTPacket.TFTPData</node>
+    <node x="737.0" y="1538.0">Bloque_2.Ejercicio_1.ServidorTFTP</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Bloque_2.Ejercicio_1.Controlador" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="-96.0" y="-48.5" />
+      <point x="496.75" y="1896.0" />
+      <point x="94.39374968781237" y="1896.0" />
+      <point x="94.39374968781237" y="1047.0" />
+      <point x="457.0" y="1047.0" />
+      <point x="-114.75" y="324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPWRQ">
+      <point x="-103.36363636363626" y="-70.0" />
+      <point x="823.1363636363637" y="1200.0" />
+      <point x="570.521305569431" y="1200.0" />
+      <point x="570.521305569431" y="987.0" />
+      <point x="362.6497717907095" y="987.0" />
+      <point x="362.6497717907095" y="269.0" />
+      <point x="317.125" y="269.0" />
+      <point x="-37.875" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket.TFTPRRQ" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="37.125" y="59.0" />
+      <point x="614.375" y="159.0" />
+      <point x="596.23" y="159.0" />
+      <point x="24.480000000000018" y="-324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="-19.846153846153868" y="-158.0" />
+      <point x="540.9038461538462" y="1280.0" />
+      <point x="449.80630556943106" y="1280.0" />
+      <point x="449.80630556943106" y="1057.0" />
+      <point x="533.5" y="1057.0" />
+      <point x="-38.25" y="324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket.TFTPACK" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="0.0" y="48.0" />
+      <point x="925.75" y="209.0" />
+      <point x="657.43" y="209.0" />
+      <point x="85.67999999999995" y="-324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTPGUI" target="Bloque_2.Ejercicio_1.Panel">
+      <point x="23.125" y="-36.5" />
+      <point x="1035.25" y="2033.0" />
+      <point x="1315.0" y="2033.0" />
+      <point x="1315.0" y="1896.0" />
+      <point x="1289.75" y="1896.0" />
+      <point x="30.75" y="258.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPRRQ">
+      <point x="-34.454545454545496" y="-70.0" />
+      <point x="892.0454545454545" y="1180.0" />
+      <point x="773.75" y="1180.0" />
+      <point x="773.75" y="997.0" />
+      <point x="746.25" y="997.0" />
+      <point x="746.25" y="149.0" />
+      <point x="663.875" y="149.0" />
+      <point x="86.625" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPData">
+      <point x="-146.8800000000001" y="-324.0" />
+      <point x="424.8699999999999" y="249.0" />
+      <point x="117.0" y="249.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPError">
+      <point x="79.38461538461536" y="-158.0" />
+      <point x="640.1346153846154" y="1260.0" />
+      <point x="824.8198860514487" y="1260.0" />
+      <point x="824.8198860514487" y="1037.0" />
+      <point x="1217.5915337787214" y="1037.0" />
+      <point x="1217.5915337787214" y="279.0" />
+      <point x="1211.3863636363635" y="279.0" />
+      <point x="16.636363636363626" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPException" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="-120.99999999999989" y="-36.5" />
+      <point x="895.8198860514489" y="977.0" />
+      <point x="686.5" y="977.0" />
+      <point x="114.75" y="324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPWRQ">
+      <point x="-85.68000000000006" y="-324.0" />
+      <point x="486.06999999999994" y="199.0" />
+      <point x="342.375" y="199.0" />
+      <point x="-12.625" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket.TFTPData" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="52.0" y="59.5" />
+      <point x="169.0" y="229.0" />
+      <point x="449.3499999999999" y="229.0" />
+      <point x="-122.40000000000009" y="-324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPRRQ">
+      <point x="-12.240000000000009" y="-324.0" />
+      <point x="559.51" y="139.0" />
+      <point x="540.125" y="139.0" />
+      <point x="-37.125" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPACK">
+      <point x="39.69230769230768" y="-158.0" />
+      <point x="600.4423076923076" y="1240.0" />
+      <point x="720.4897717907095" y="1240.0" />
+      <point x="720.4897717907095" y="1017.0" />
+      <point x="773.75" y="1017.0" />
+      <point x="773.75" y="229.0" />
+      <point x="957.75" y="229.0" />
+      <point x="32.0" y="48.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPException">
+      <point x="34.454545454545496" y="-70.0" />
+      <point x="960.9545454545455" y="1290.0" />
+      <point x="1062.1948860514487" y="1290.0" />
+      <point x="45.375" y="36.5" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPException">
+      <point x="99.23076923076928" y="-158.0" />
+      <point x="659.9807692307693" y="1270.0" />
+      <point x="880.6948860514487" y="1270.0" />
+      <point x="-136.125" y="36.5" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPACK">
+      <point x="36.72000000000003" y="-324.0" />
+      <point x="608.47" y="169.0" />
+      <point x="861.75" y="169.0" />
+      <point x="-64.0" y="48.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket.TFTPWRQ" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="88.375" y="59.0" />
+      <point x="443.375" y="159.0" />
+      <point x="535.03" y="159.0" />
+      <point x="-36.72000000000003" y="-324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPRRQ">
+      <point x="-39.692307692307736" y="-158.0" />
+      <point x="521.0576923076923" y="1290.0" />
+      <point x="398.81988605144875" y="1290.0" />
+      <point x="398.81988605144875" y="1037.0" />
+      <point x="408.25" y="1037.0" />
+      <point x="408.25" y="289.0" />
+      <point x="490.625" y="289.0" />
+      <point x="-86.625" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPACK">
+      <point x="0.0" y="-70.0" />
+      <point x="926.5" y="1170.0" />
+      <point x="813.8198860514487" y="1170.0" />
+      <point x="813.8198860514487" y="239.0" />
+      <point x="973.75" y="239.0" />
+      <point x="48.0" y="48.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPWRQ">
+      <point x="-59.53846153846155" y="-158.0" />
+      <point x="501.21153846153845" y="1300.0" />
+      <point x="252.73641951798226" y="1300.0" />
+      <point x="252.73641951798226" y="1037.0" />
+      <point x="351.6497717907095" y="1037.0" />
+      <point x="351.6497717907095" y="279.0" />
+      <point x="291.875" y="279.0" />
+      <point x="-63.125" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPError">
+      <point x="172.27272727272725" y="-70.0" />
+      <point x="1098.7727272727273" y="1330.0" />
+      <point x="1379.220795142358" y="1330.0" />
+      <point x="1379.220795142358" y="259.0" />
+      <point x="1277.9318181818182" y="259.0" />
+      <point x="83.18181818181824" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="-68.90909090909088" y="-70.0" />
+      <point x="857.5909090909091" y="1190.0" />
+      <point x="709.4897717907095" y="1190.0" />
+      <point x="709.4897717907095" y="987.0" />
+      <point x="610.0" y="987.0" />
+      <point x="38.25" y="324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.Controlador" target="Bloque_2.Ejercicio_1.ClienteTFTP">
+      <point x="-32.0" y="-48.5" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ServidorTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPData">
+      <point x="-137.81818181818176" y="-70.0" />
+      <point x="788.6818181818182" y="1210.0" />
+      <point x="310.9065337787215" y="1210.0" />
+      <point x="310.9065337787215" y="1017.0" />
+      <point x="233.0872717907095" y="1017.0" />
+      <point x="233.0872717907095" y="259.0" />
+      <point x="91.0" y="259.0" />
+      <point x="-26.0" y="59.5" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTP" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPData">
+      <point x="-119.0769230769231" y="-158.0" />
+      <point x="441.6730769230769" y="1330.0" />
+      <point x="110.10528814935083" y="1330.0" />
+      <point x="110.10528814935083" y="289.0" />
+      <point x="13.0" y="289.0" />
+      <point x="-104.0" y="59.5" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket.TFTPError" target="Bloque_2.Ejercicio_1.TFTPacket">
+      <point x="-49.90909090909088" y="59.0" />
+      <point x="1144.840909090909" y="269.0" />
+      <point x="694.15" y="269.0" />
+      <point x="122.39999999999998" y="-324.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPException" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPError">
+      <point x="121.00000000000011" y="-36.5" />
+      <point x="1137.819886051449" y="1057.0" />
+      <point x="1330.0915337787214" y="1057.0" />
+      <point x="1330.0915337787214" y="279.0" />
+      <point x="1244.659090909091" y="279.0" />
+      <point x="49.90909090909099" y="59.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.ClienteTFTPGUI" target="Bloque_2.Ejercicio_1.Controlador">
+      <point x="-23.125" y="-36.5" />
+      <point x="989.0" y="2033.0" />
+      <point x="656.75" y="2033.0" />
+      <point x="64.0" y="48.5" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.Controlador" target="Bloque_2.Ejercicio_1.Panel">
+      <point x="96.0" y="-48.5" />
+      <point x="688.75" y="1896.0" />
+      <point x="1228.25" y="1896.0" />
+      <point x="-30.75" y="258.0" />
+    </edge>
+    <edge source="Bloque_2.Ejercicio_1.TFTPacket" target="Bloque_2.Ejercicio_1.TFTPacket.TFTPError">
+      <point x="97.91999999999996" y="-324.0" />
+      <point x="669.67" y="249.0" />
+      <point x="1111.5681818181818" y="249.0" />
+      <point x="-83.18181818181824" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.903021978021978" x="1001.456951627624" y="642.600243383024" />
+  <SelectedNodes>
+    <node>Bloque_2.Ejercicio_1.PaqueteTFTP</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

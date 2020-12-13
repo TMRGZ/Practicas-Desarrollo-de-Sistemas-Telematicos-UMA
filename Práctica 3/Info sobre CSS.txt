@@ -1,0 +1,3 @@
+No se han eliminado estilos mas allá de los básicos para la creación de la hoja de estilo
+
+Las hojas de estilo se han basado en tutoriales de internet y en inspeccionar elemento en blogs con el diseño buscado
