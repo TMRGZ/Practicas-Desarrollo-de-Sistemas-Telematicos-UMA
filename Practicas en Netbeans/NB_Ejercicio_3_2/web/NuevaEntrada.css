@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+form {
+    align-content: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.entradaBox{
+    width: 40%;
+    height: 50%;
+    background: rgb(61, 79, 93);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.entradaBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.entradaBox textarea {
+    width: 100%;
+    height: 50%;
+}
+
+.entradaBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.entradaBox input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.entradaBox input[type="submit"] {
+    border: 2px solid rgb(176, 202, 219);
+    height: 40px;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+
+.entradaBox input[type="submit"]:hover {
+    cursor: pointer;
+    background: yellowgreen;
+    color: black;
+}
